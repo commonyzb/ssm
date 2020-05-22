@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!-- mybatis 配置 -->
+
+    <!-- 数据源交给spring配置 -->
+
+    <!-- 1.配置别名-->
+    <typeAliases>
+        <package name="com.yzb.entity"/>
+    </typeAliases>
+
+    <!-- 2.配置mappers-->
+    <mappers>
+        <mapper resource="com/yzb/dao/BookMapper.xml"></mapper>
+    </mappers>
+</configuration>
