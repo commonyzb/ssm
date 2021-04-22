@@ -10,7 +10,7 @@
 
     <properties>
         <spring-version>5.2.2.RELEASE</spring-version>
-        <mybatis-verion>3.5.3</mybatis-verion>
+        <mybatis-verion>3.5.6</mybatis-verion>
         <mybatis-spring-verion>2.0.3</mybatis-spring-verion>
         <druid-version>1.1.21</druid-version>
         <jackson-version>2.10.1</jackson-version>
